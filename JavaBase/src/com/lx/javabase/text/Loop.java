@@ -2,7 +2,7 @@ package com.lx.javabase.text;
 
 import java.util.Scanner;
 
-public class text3 {
+public class Loop {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("请输入Java课程分数:");

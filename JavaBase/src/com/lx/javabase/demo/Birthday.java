@@ -37,10 +37,10 @@ public class Birthday {
 		birthday.displayer(birthday);	
 		System.out.println("引导传递之后"+birthday.year+"-"+birthday.month+"-"+birthday.day);
 		}
+		
 	public static void main(String[] args) {
 		testValue1();		
 		testValue2();	
-		
 	}
 	
 
