@@ -1,0 +1,10 @@
+package com.lx.javabase.oop6;
+
+public class TestOrder {
+
+	public static void main(String[] args) {
+		Lisi lisi = new Lisi();
+
+	}
+
+}

@@ -25,7 +25,7 @@ public class Sanjiao {
 		System.out.println("三角形的底边为:\n"+(2*h-1)+"\n");
 		
 		for (int i = 1; i <= h; i++) {
-//			System.out.print(i);
+			System.out.print(i+"\t");
 			for (int j = 0; j <= h + i; j++) {
 				if (j <= h - (i-1)) {
 					System.out.print(" ");
