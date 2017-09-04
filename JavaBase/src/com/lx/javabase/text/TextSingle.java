@@ -1,5 +1,8 @@
 package com.lx.javabase.text;
 
+import lombok.Getter;
+
+@Getter
 public class TextSingle {
 
 	public static void main(String[] args) {
