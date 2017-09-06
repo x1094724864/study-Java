@@ -5,10 +5,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
 import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap.KeySetView;
-
-import com.sun.corba.se.impl.oa.poa.ActiveObjectMap.Key;
-import com.sun.javafx.geom.AreaOp.AddOp;
 
 @SuppressWarnings("all")
 public class HashMapText {
@@ -61,7 +57,7 @@ public class HashMapText {
 		Set<Entry<String, String>> pg=Penguins.entrySet();
 		for (Entry<String, String> string : pg) {
 			System.out.print(string+"\t");
-			System.out.println("\t"+string.getKey() + "----" + string.getValue());
+			System.out.println("\t"+string.getKey() + "----------" + string.getValue());
 		}
 		//用Iterator 迭代器进行遍历
 		System.out.println("---------用Iterator 迭代器进行遍历---------");
