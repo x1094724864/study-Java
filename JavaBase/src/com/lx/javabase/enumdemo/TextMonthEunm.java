@@ -56,7 +56,7 @@ public class TextMonthEunm {
 		enumMap.put(MonthEnum.DEC, 12);
 		for (Entry<MonthEnum, Integer> string : enumMap.entrySet()) {
 			System.out.println(string + "++++" + string.getValue() + "---" + string.getKey());
-			System.out.println("我是："+string.getKey().name()+",    我有："+string.getKey().getDays());
+			System.out.println("我是："+string.getKey().name()+"我叫做："+string.getKey().getName()+",    我有："+string.getKey().getDays()+"天。  其实我在系统中默认是第"+string.getKey().ordinal()+"个位置，不是"+string.getValue());
 		}
 
 	}
