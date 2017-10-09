@@ -1,7 +1,5 @@
 package com.lx.javabase.oop;
 
-import com.sun.corba.se.impl.naming.pcosnaming.NameServer;
-
 public class Students {
 
 //	String name;

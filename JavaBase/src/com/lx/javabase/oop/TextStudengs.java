@@ -1,7 +1,5 @@
 package com.lx.javabase.oop;
 
-import java.util.Scanner;
-
 //import com.lx.javabase.demo.newP;
 
 public class TextStudengs {
