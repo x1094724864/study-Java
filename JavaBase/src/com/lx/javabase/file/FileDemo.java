@@ -13,6 +13,7 @@ public class FileDemo {
 		System.out.println("file1.getAbsoluteFile():" + file1.getAbsoluteFile());
 		System.out.println("file1.canExecute():" + file1.canExecute());
 		System.out.println("file2.list():" + file2.exists());
+		System.out.println("file2.list():" + file2.list());
 	}
 
 }

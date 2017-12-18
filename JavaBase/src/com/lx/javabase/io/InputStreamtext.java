@@ -10,9 +10,11 @@ import java.io.FileOutputStream;
 public class InputStreamtext {
 
 	public static void main(String[] args) throws Exception {
-		File input = new File("/home/lx/Videos/01教学目标学习方法01_2017-03-15_143037.wmv");
+		// File input = new File("/home/lx/Videos/01教学目标学习方法01_2017-03-15_143037.wmv");
+		File input = new File("E:\\java资料\\视屏\\Idea配置Tomcat服务器.avi");
+		File out = new File("E:\\java资料\\视屏\\beifen.mp4");
 		FileInputStream fis = new FileInputStream(input);
-		File out = new File("/home/lx/Videos/复制.wmv");
+		// File out = new File("/home/lx/Videos/复制.wmv");
 		FileOutputStream fos = new FileOutputStream(out);
 
 		BufferedInputStream bis = new BufferedInputStream(fis);

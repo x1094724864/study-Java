@@ -10,17 +10,17 @@ import java.io.FileWriter;
 public class FileReadText {
 	@SuppressWarnings("all")
 	public static void main(String[] args) throws Exception {
-		 File in = new File("/home/lx/Videos/新建文本 1.txt");
-//		File in = new File("/home/lx/Videos/01教学目标学习方法01_2017-03-15_143037.wmv");
-		 File ut = new File("/home/lx/Videos/文本复制.txt");
-//		File ut = new File("/home/lx/Videos/视频文本复制.wmv");
+		File in = new File("C:\\Users\\Administrator\\Desktop\\新建文本文档.txt");
+		File ut = new File("E:\\java资料\\视屏\\beifen.txt");
+		// File in = new File("E:\\java资料\\视屏\\Idea配置Tomcat服务器.avi");
+		// File ut = new File("E:\\java资料\\视屏\\beifen.avi");
 		FileReader fr = new FileReader(in);
 		FileWriter fw = new FileWriter(ut);
 		BufferedReader br = new BufferedReader(fr);
 		BufferedWriter bw = new BufferedWriter(fw);
 
 		System.out.println("我要开始 复制了");
-//		 int read = fr.read();
+		// int read = fr.read();
 		int read = br.read();
 
 		while (read != -1) {

@@ -19,6 +19,10 @@ public class textRunnable {
 		Thread thread = new Thread(chengFaRunnable);
 		thread.start();
 	
+		
+		
+		
+		
 	}
 
 }
